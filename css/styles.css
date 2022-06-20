@@ -115,13 +115,8 @@ body {
 
 /* query */
 @media (max-width:576px) {
-    .carousel-item img {
-        height: auto;
-    }
-    .row {
-        
-        
-    }
+    
+    .main{}
 
     .textoInfo {
         max-height: 35vh;
