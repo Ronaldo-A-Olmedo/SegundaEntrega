@@ -52,37 +52,37 @@ body {
     background-size: cover;
 }
 
-/*  CARD SEGUNDA COLUMN */ 
+/*  CARD SEGUNDA COLUMN */
 
-.cardStyle:hover{
+
+.cardStyle:hover {
     transform: scale(1.05);
-    background-color: rgb(180, 184, 171);
     opacity: 70%;
 
 }
 
-.card-body { 
-    background-color: rgb(238, 240, 235);
+.card-body {
+
     font-family: 'Roboto Condensed', sans-serif;
-    
+    background-color: rgb(21,50,67);
+
 }
-.mRow{
+
+.mRow {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.card-body a{ 
+.card-body a {
     text-decoration: none;
-    color: black;
-}
-.card-body a:hover{ 
-    
-    color: rgb(180, 184, 171);
+    color: rgb(238, 240, 235);
+
 
 }
+
 
 /*  FOOTER      */
-.footer{
+.footer {
     text-align: center;
     justify-content: center;
     background-color: rgb(21, 50, 67);
@@ -90,15 +90,17 @@ body {
     font-weight: 600;
     font-family: 'Source Serif Pro', serif;
 }
-.footer i{
+
+.footer i {
     color: rgb(238, 240, 235);
     margin-left: 3rem;
     margin-right: 3rem;
-    
+
 }
+
 .footer i:hover {
     transform: scale(1.1);
-    
+
 }
 
 
@@ -115,24 +117,25 @@ body {
 
 /* query */
 @media (max-width:576px) {
-    
-    .main{}
+
+
 
     .textoInfo {
         max-height: 35vh;
         padding-top: 1rem;
     }
-    
-    .cardStyle:hover{
+
+    .cardStyle:hover {
         transform: scale(1.05);
         background-color: rgb(180, 184, 171);
         opacity: 100%;
-    
+
     }
-    .footer i{
-        
+
+    .footer i {
+
         margin-left: 1rem;
         margin-right: 1rem;
-        
+
     }
 }
