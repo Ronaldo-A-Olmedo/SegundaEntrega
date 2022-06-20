@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(244, 249, 233);
+}
+
+
+/*  HEADER                       */
+.header .navbar {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(21, 50, 67);
+
+}
+
+.navbar a {
+    color: rgb(238, 240, 235);
+}
+
+.navbar a:hover {
+    transform: scale(1.1);
+    color: rgb(180, 184, 171);
+}
+
+.navbar-text {
+    color: rgb(238, 240, 235);
+    font-family: 'Source Serif Pro', serif;
+}
+
+/*  MAIN                        */
+
+
+.textoInfo {
+    background-color: rgb(238, 240, 235);
+    margin: 2rem;
+
+    border-radius: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    opacity: 80%;
+    padding: 1rem;
+    padding-top: 100px;
+    height: 300px;
+    text-align: center;
+}
+
+.colorRow {
+    background-color: rgb(238, 240, 235);
+
+}
+
+.imageRow {
+    background-image: url(./../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*  CARD SEGUNDA COLUMN */ 
+
+.cardStyle:hover{
+    transform: scale(1.05);
+    background-color: rgb(180, 184, 171);
+    opacity: 70%;
+
+}
+
+.card-body { 
+    background-color: rgb(238, 240, 235);
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+.mRow{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-body a{ 
+    text-decoration: none;
+    color: black;
+}
+.card-body a:hover{ 
+    
+    color: rgb(180, 184, 171);
+
+}
+
+/*  FOOTER      */
+.footer{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(21, 50, 67);
+    color: rgb(238, 240, 235);
+    font-weight: 600;
+    font-family: 'Source Serif Pro', serif;
+}
+.footer i{
+    color: rgb(238, 240, 235);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    
+}
+.footer i:hover {
+    transform: scale(1.1);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* query */
+@media (max-width:576px) {
+    .carousel-item img {
+        height: auto;
+    }
+    .row {
+        
+        width: 330px;
+        max-width: none;
+
+    }
+
+    .textoInfo {
+        max-height: 35vh;
+        padding-top: 1rem;
+    }
+    
+    .cardStyle:hover{
+        transform: scale(1.05);
+        background-color: rgb(180, 184, 171);
+        opacity: 100%;
+    
+    }
+    .footer i{
+        
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+    }
+}
